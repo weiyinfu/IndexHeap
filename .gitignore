@@ -1,0 +1,5 @@
+.idea/
+target/
+*.iml
+in.txt
+out*.txt
