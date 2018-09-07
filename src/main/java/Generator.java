@@ -27,8 +27,8 @@ public boolean generate() {
         return false;
     }
     cnt++;
-    int n = randInt(3, 300);//操作个数
-    int m = randInt(3, 10);//数组大小
+    int n = randInt(3, 500);//操作个数
+    int m = randInt(3, 100);//数组大小
     print(n, m);
     boolean added[] = new boolean[m];
     int valueRange = 100;

@@ -37,6 +37,6 @@ public static void judge(Class<?> bruteforce, Class<?> mine, Generator generator
 }
 
 public static void main(String[] args) {
-    judge(RepeatIndexHeap.class, RemoveIndexHeap.class, new Generator());
+    judge(TreeIndexHeap.class, RemoveIndexHeap.class, new Generator());
 }
 }
